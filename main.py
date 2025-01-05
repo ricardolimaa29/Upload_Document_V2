@@ -3,10 +3,13 @@ from googleapiclient.discovery import build
 from google.oauth2 import service_account
 from googleapiclient.http import MediaFileUpload
 from tkinter import filedialog
-import datetime as dt
+
 # python3 -m pip install google-auth
 # python3 -m pip install google-api-python-client
 # python3 -m pip install google_auth_oauthlib
+
+
+
 SCOPES = ['https://www.googleapis.com/auth/drive']
 SERVICE_ACCOUNT_FILE = 'C:\\Users\\Ricardo R Lima\\Documents\\prog\\Upload_Document_V2\\uploaddocumentv2-01911cd8058b.json'
 PARENT_FOLDER_ID = "1dmqBpdV0GwKTJS4gYLR26jYSkbQsfd1q"
